@@ -35,9 +35,11 @@ export default function Intro() {
             backgroundColor: 'rgba(0,0,0,1)',
             color: '#fff',
             fontWeight: 'bold',
+            height: '100%',
             mixBlendMode: 'overlay',
-            padding: '50px',
+            paddingTop: '58px',
             textShadow: '3px, 3px, 5px, #000',
+            width: '100%',
           }}
         >
           inspire acquire
@@ -47,9 +49,10 @@ export default function Intro() {
             gutterBottom
             sx={{
               color: '#fff',
+              paddingTop: '50px',
             }}
           >
-            Inspire Acquire, LLC. <br />
+            Inspire Acquire, LLC.<br />
             Optimizing human engagement from clicks to handshakes.
           </Typography>
         </Typography>
