@@ -1,13 +1,14 @@
 import './App.css';
-import Header from './components/Header';
+import StickyFooter from './components/Footer';
+import Intro from './components/Intro';
 import Navbar from './components/Navbar';
-
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Header />
+      <Intro />
+      <StickyFooter />
     </div>
   );
 }
