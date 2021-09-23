@@ -30,7 +30,7 @@ export default function About() {
         gutterBottom
         sx={{
           fontWeight: 'bold',
-          paddingTop: '58px',
+          // paddingTop: '20px',
           textShadow: '3px, 3px, 5px, #000',
         }}
       >
@@ -42,7 +42,7 @@ export default function About() {
         gutterBottom
         sx={{
           backgroundColor: 'rgba(0,0,0,0.83)',
-          fontSize: '1.18rem',
+          // fontSize: '1.18rem',
           maxWidth: '650px',
           padding: '40px 25px',
           textAlign: 'left',
