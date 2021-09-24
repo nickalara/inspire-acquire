@@ -38,7 +38,7 @@ export default function About() {
       </Typography>
       <Typography
         variant="body1"
-        component="paragraph"
+        component="h6"
         gutterBottom
         sx={{
           backgroundColor: 'rgba(0,0,0,0.83)',

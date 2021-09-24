@@ -4,6 +4,7 @@ import StickyFooter from './components/Footer';
 import Intro from './components/Intro';
 import Navbar from './components/Navbar';
 import Products from './components/Products';
+import Why from './components/Why'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Intro />
       <About />
       <Products />
+      <Why />
       <StickyFooter />
     </div>
   );
