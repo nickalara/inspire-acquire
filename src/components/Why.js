@@ -18,7 +18,7 @@ export default function Intro() {
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
       display: 'flex',
-      height: '100vh',
+      height: '115vh',
       justifyContent: 'center',
     }}>
       <Slide
@@ -51,13 +51,13 @@ export default function Intro() {
               textAlign: 'left',
               marginTop: '30px',
               padding: '27px 33px',
+              width: 'auto',
             }}
           >
             Our goal is to provide you with quality and actionable potential.<br />
             <br />
             This is where our competitors fail.<br />
             <br />
-
             Every chance we get, we look for opportunities to achieve greater efficiency.<br />
             <br />
             We don't just hope for a good conversion rate...<br />

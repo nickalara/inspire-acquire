@@ -11,6 +11,7 @@ import ListItemText from '@mui/material/ListItemText';
 import Checkbox from '@mui/material/Checkbox';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
+import Contact from './Contact';
 
 export default function Products() {
 
@@ -47,7 +48,7 @@ export default function Products() {
       color: '#fff',
       display: 'flex',
       flexDirection: 'column',
-      height: '150vh',
+      height: '200vh',
     }}>
       <Typography
         variant="h2"
@@ -92,6 +93,7 @@ export default function Products() {
       >
         Inquire
       </Button>
+      <Contact />
     </Box >
   );
 }
